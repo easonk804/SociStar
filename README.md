@@ -1,50 +1,65 @@
-# Welcome to your Expo app 👋
+# SociStar - Social Connection App 🌟
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+SociStar 是一个创新的社交连接应用，旨在帮助用户建立和维护有意义的社交关系。通过结合位置服务、即时通讯和社交网络功能，为用户提供独特的社交体验。
 
-## Get started
+## 主要功能 ✨
 
-1. Install dependencies
+- **实时位置分享**: 与好友实时分享位置，轻松组织线下聚会
+- **即时通讯**: 支持一对一聊天和群聊功能
+- **好友系统**: 完整的好友管理系统，包括添加、删除和分组功能
+- **个人资料**: 可自定义的个人资料页面
+- **隐私设置**: 完善的隐私保护设置
+- **通知系统**: 实时接收好友请求和消息通知
 
+## 技术栈 🛠️
+
+- **前端框架**: React Native + Expo
+- **状态管理**: React Context API
+- **导航**: React Navigation
+- **地图服务**: React Native Maps
+- **UI组件**: Native Base
+- **开发语言**: TypeScript
+
+## 开始使用 🚀
+
+1. 克隆项目
+   ```bash
+   git clone https://github.com/easonk804/SociStar.git
+   cd SociStar
+   ```
+
+2. 安装依赖
    ```bash
    npm install
    ```
 
-2. Start the app
-
+3. 启动项目
    ```bash
-    npx expo start
+   npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+## 项目结构 📁
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+```
+src/
+├── components/     # 可重用组件
+├── screens/        # 应用程序屏幕
+├── services/       # 业务逻辑服务
+├── config/         # 配置文件
+├── theme/          # 主题相关
+└── types/         # TypeScript 类型定义
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 贡献指南 🤝
 
-## Learn more
+欢迎提交 Pull Requests 来改进项目！请确保在提交之前：
 
-To learn more about developing your project with Expo, look at the following resources:
+1. Fork 项目
+2. 创建你的特性分支 (`git checkout -b feature/AmazingFeature`)
+3. 提交你的修改 (`git commit -m 'Add some AmazingFeature'`)
+4. 推送到分支 (`git push origin feature/AmazingFeature`)
+5. 开启一个 Pull Request
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## 许可证 📄
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情
