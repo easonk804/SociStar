@@ -1,0 +1,123 @@
+import { StyleSheet } from 'react-native';
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#F2F2F7',
+  },
+  loadingContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#F2F2F7',
+  },
+  header: {
+    alignItems: 'center',
+    paddingVertical: 24,
+    backgroundColor: '#FFFFFF',
+    borderBottomWidth: 1,
+    borderBottomColor: '#C6C6C8',
+  },
+  avatarContainer: {
+    position: 'relative',
+    marginBottom: 16,
+  },
+  avatar: {
+    width: 100,
+    height: 100,
+    borderRadius: 50,
+    borderWidth: 3,
+    borderColor: '#007AFF',
+  },
+  editAvatarButton: {
+    position: 'absolute',
+    right: 0,
+    bottom: 0,
+    backgroundColor: '#FFFFFF',
+    width: 36,
+    height: 36,
+    borderRadius: 18,
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderWidth: 2,
+    borderColor: '#007AFF',
+  },
+  username: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    color: '#1C1C1E',
+    marginBottom: 4,
+  },
+  email: {
+    fontSize: 16,
+    color: '#8E8E93',
+  },
+  statsContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    alignItems: 'center',
+    paddingVertical: 20,
+    backgroundColor: '#FFFFFF',
+    marginTop: 16,
+    borderTopWidth: 1,
+    borderBottomWidth: 1,
+    borderColor: '#C6C6C8',
+  },
+  statItem: {
+    alignItems: 'center',
+    flex: 1,
+  },
+  statNumber: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    color: '#007AFF',
+    marginBottom: 4,
+  },
+  statLabel: {
+    fontSize: 14,
+    color: '#8E8E93',
+  },
+  statDivider: {
+    width: 1,
+    height: '60%',
+    backgroundColor: '#C6C6C8',
+  },
+  menuContainer: {
+    backgroundColor: '#FFFFFF',
+    marginTop: 16,
+    borderTopWidth: 1,
+    borderBottomWidth: 1,
+    borderColor: '#C6C6C8',
+  },
+  menuItem: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    padding: 16,
+    borderBottomWidth: 1,
+    borderBottomColor: '#C6C6C8',
+  },
+  menuText: {
+    flex: 1,
+    marginLeft: 16,
+    fontSize: 16,
+    color: '#1C1C1E',
+  },
+  logoutButton: {
+    margin: 20,
+    padding: 16,
+    backgroundColor: '#FF3B30',
+    borderRadius: 8,
+    alignItems: 'center',
+  },
+  logoutText: {
+    color: '#FFFFFF',
+    fontSize: 16,
+    fontWeight: 'bold',
+  },
+  version: {
+    textAlign: 'center',
+    color: '#8E8E93',
+    fontSize: 14,
+    marginBottom: 24,
+  },
+});
